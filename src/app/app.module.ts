@@ -10,6 +10,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddAssetComponent } from './pages/assets/add-asset/add-asset.component';
 import { AddAssetCategoryComponent } from './pages/asset-categories/add-asset-category/add-asset-category.component';
+import { AssetEditComponent } from './pages/assets/asset-edit/asset-edit.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AddAssetCategoryComponent } from './pages/asset-categories/add-asset-ca
     SidebarComponent,
     NavbarComponent,
     AddAssetComponent,
-    AddAssetCategoryComponent
+    AddAssetCategoryComponent,
+    AssetEditComponent
   ],
   imports: [
     BrowserModule,

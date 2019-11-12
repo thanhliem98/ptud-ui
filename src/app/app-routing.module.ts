@@ -5,6 +5,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { AssetCategoryListComponent } from './pages/asset-categories/asset-category-list/asset-category-list.component';
 import { AddAssetComponent } from './pages/assets/add-asset/add-asset.component';
 import { AddAssetCategoryComponent } from './pages/asset-categories/add-asset-category/add-asset-category.component';
+import { AssetEditComponent } from './pages/assets/asset-edit/asset-edit.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'tai-san',
     component: AssetListComponent
+  },
+  {
+    path: 'tai-san/chinh-sua',
+    component: AssetEditComponent
   },
   {
     path: 'tai-san/them-moi',
