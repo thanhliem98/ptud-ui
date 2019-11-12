@@ -6,6 +6,7 @@ import { AssetCategoryListComponent } from './pages/asset-categories/asset-categ
 import { AddAssetComponent } from './pages/assets/add-asset/add-asset.component';
 import { AddAssetCategoryComponent } from './pages/asset-categories/add-asset-category/add-asset-category.component';
 import { AssetEditComponent } from './pages/assets/asset-edit/asset-edit.component';
+import { EditAssetCategoryComponent } from './pages/asset-categories/edit-asset-category/edit-asset-category.component';
 
 
 const routes: Routes = [
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: 'danh-muc-tai-san/them-moi',
     component: AddAssetCategoryComponent
+  },
+  {
+    path: 'danh-muc-tai-san/chinh-sua',
+    component: EditAssetCategoryComponent
   }
 ];
 
